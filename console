@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+// application.php
+
+require 'vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use Commands\CheckFileCommand;
+
+$application = new Application();
+
+// ... register commands
+
+$application->add(new CheckFileCommand());
+
+$application
+    ->setDefaultCommand('check:file', true)
+    ->run();

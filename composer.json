@@ -1,0 +1,11 @@
+{
+    "require": {
+        "vkhs/brackets": "^0.0.3",
+        "symfony/console": "^3.3"
+    },
+    "autoload": {
+        "classmap": [
+            "Commands/"
+        ]
+    }
+}
