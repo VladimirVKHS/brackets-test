@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8266c3fe75282f5b37dff4f9d88ac846",
+    "content-hash": "58852c7c1f7034319db41e64519e74ba",
     "packages": [
         {
             "name": "psr/log",
@@ -239,16 +239,16 @@
         },
         {
             "name": "vkhs/brackets",
-            "version": "v0.0.3",
+            "version": "v0.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/VladimirVKHS/brackets.git",
-                "reference": "9d24e449d016fafb5ebf639be715a9887450b1b6"
+                "reference": "dbfd8b9e9aa54f197a8583d18961e3d24b4d31ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VladimirVKHS/brackets/zipball/9d24e449d016fafb5ebf639be715a9887450b1b6",
-                "reference": "9d24e449d016fafb5ebf639be715a9887450b1b6",
+                "url": "https://api.github.com/repos/VladimirVKHS/brackets/zipball/dbfd8b9e9aa54f197a8583d18961e3d24b4d31ff",
+                "reference": "dbfd8b9e9aa54f197a8583d18961e3d24b4d31ff",
                 "shasum": ""
             },
             "require-dev": {
@@ -271,7 +271,7 @@
                 }
             ],
             "description": "Проверка скобок в строке",
-            "time": "2018-01-07T23:43:59+00:00"
+            "time": "2018-01-09T07:47:24+00:00"
         }
     ],
     "packages-dev": [],
