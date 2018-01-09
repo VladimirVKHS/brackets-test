@@ -33,7 +33,7 @@ class CheckFileCommand extends Command
         try {
             $checker = new BracketsChecker($str);
         } catch (\InvalidArgumentException $e) {
-            $io->warning('File incorrect: unacceptable symbols');
+            $io->warning($e->getMessage());
             die();
         }
         if ($checker->result) {
