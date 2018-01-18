@@ -31,7 +31,7 @@ class CheckFileCommand extends Command
         $str = file_get_contents($file);
         // Проверяем скобки при помощи BracketsChecker
         try {
-            $checker = new BracketsChecker($str);
+            $checker = (new BracketsChecker($str))->check();
         } catch (\InvalidArgumentException $e) {
             $io->warning($e->getMessage());
             die();

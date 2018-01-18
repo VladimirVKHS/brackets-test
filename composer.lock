@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "58852c7c1f7034319db41e64519e74ba",
+    "content-hash": "7916832c8a47deba5a6c982b63e71b3b",
     "packages": [
         {
             "name": "psr/log",
@@ -239,16 +239,16 @@
         },
         {
             "name": "vkhs/brackets",
-            "version": "v0.0.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/VladimirVKHS/brackets.git",
-                "reference": "dbfd8b9e9aa54f197a8583d18961e3d24b4d31ff"
+                "reference": "9fa48f060bf10772e507829019e89cf58f69ebd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VladimirVKHS/brackets/zipball/dbfd8b9e9aa54f197a8583d18961e3d24b4d31ff",
-                "reference": "dbfd8b9e9aa54f197a8583d18961e3d24b4d31ff",
+                "url": "https://api.github.com/repos/VladimirVKHS/brackets/zipball/9fa48f060bf10772e507829019e89cf58f69ebd2",
+                "reference": "9fa48f060bf10772e507829019e89cf58f69ebd2",
                 "shasum": ""
             },
             "require-dev": {
@@ -271,13 +271,15 @@
                 }
             ],
             "description": "Проверка скобок в строке",
-            "time": "2018-01-09T07:47:24+00:00"
+            "time": "2018-01-18T21:07:49+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "vkhs/brackets": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

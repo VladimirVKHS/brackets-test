@@ -1,6 +1,6 @@
 {
     "require": {
-        "vkhs/brackets": "0.0.*",
+        "vkhs/brackets": "dev-master",
         "symfony/console": "^3.3"
     },
     "autoload": {
